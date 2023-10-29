@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tFoQFYTPVPc5SOzHwZFKuCF9ckBSlmwQUA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#rules{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+#firstsection{
+    padding-bottom: 40px;
+}
+#secondsection{
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+.sports{
+    height:200px;
+    /* border-radius: 50%; */
+    border:5px black solid;
+    margin-bottom: 35px;
+    width:200px;
+}
+ .button{
+    width:100px;
+    height: 30px;
+    font-size: 18px;
+    background-color:darkgray;
+    border:3px black solid;
+    border-radius: 6px;
+    transition: 0.3s ease-out;
+    margin-left: 50px;
+} 
